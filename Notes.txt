@@ -6,7 +6,7 @@ Best Practice
 	* Choose one implementation, either single or double quote, and use consistently.
 	* Teams will often have agreed upon style guide.
 
-Error 
+Error:
 	* Single and double quote: var name = 'Joe";
 	* Double and single quote: var name = "Joe';
 
