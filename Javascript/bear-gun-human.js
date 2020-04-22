@@ -9,12 +9,16 @@ let getUserChoice = (userInput) => {
         return(alert('Please enter valid option'));
     }
 }
+
+
 let computersChoice = () => { // Get Computers Choice
     compOptions = ['gun', 'bear', 'human']
     
-    const compInput = compOptions[Math.floor(Math.random()*3)]
+    let compInput = compOptions[Math.floor(Math.random()*3)]
         return(compInput)
 }
+
+
 function compareAnswers(getUserChoice, computersChoice){ // Comapre the two 
     if (getUserChoice  === 'bear'){
         if (computersChoice === 'human'){return(' Computer was mauled by a Bear...')}        
@@ -44,6 +48,8 @@ function compareAnswers(getUserChoice, computersChoice){ // Comapre the two
         if (computersChoice === 'gun'){return('You kill eachother.. Draw..')}
     }
 }
+
+
 function playGame() {
     let promptUsesChoice = prompt("Please choose bear, human or gun");
     let userChoice = getUserChoice(promptUsesChoice);
@@ -52,4 +58,6 @@ function playGame() {
     // console.log(compChoice);
     alert(compareAnswers(userChoice, compChoice));
 };
+
+
 playGame()
