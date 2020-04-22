@@ -1,26 +1,9 @@
-# //What does the computer need to know?
-
-# //Random Body Parts
-# let randomBodyParts = ['head', 'arms', 'legs', 'feet', 'toes', 'hips'] 
-# //random Describing words
-# let randomAdjectives = ['smelly', 'cunt bearing', 'medically challanged', 'silly', 'crazy', 'clorophormic wasting']
-# //random words for discribing 
-# let randomWords = ['pumbus', 'manbun', 'cunt', 'penis', 'chode', 'hole', 'whore', 'tweater']
-# //randomize body part
-# let randomBodyPart = randomBodyParts[Math.floor(Math.random()*5)]
-# //randomize adjective
-# let randomAdjective = randomAdjectives[Math.floor(Math.random()*6)]
-# //randomize words
-# let randomWord = randomWords[Math.floor(Math.random()*8)]
-# //output
-# alert('Your ' + randomBodyPart + " looks like a " + randomAdjective + ' ' + randomWord )
 
 import random
-randomBodyParts = ['head', 'arms', 'legs', 'feet', 'toes', 'hips', 'fingers']
+randomBodyParts = ['head', 'arms', 'legs', 'feet', 'toes', 'hips', 'thumbs', 'nails', 'knuckles', 'wrists', 'throat', 'ribs', 'veins', 'skin', 'tongue']
 
-randomAdjectives = ['smelly', 'cunt', 'medically challanged', 'silly', 'crazy', 'clorophormic wasting']
-
-randomWords = ['pumbus', 'manbun', 'cunt', 'penis', 'chode', 'hole', 'whore', 'tweater']
+randomAdjectives = ['smelly', 'cunt', 'medically challanged', 'silly', 'crazy', 'clorophormic wasting', '2-faced', 'abnormal', 'aborted', 'abysmal', 'begging', 'bickering', 'bitchy', 'blasphemous','chaotic', 'cheerless']
+randomWords = ['pumbus', 'cunt', 'penis', 'chode', 'hole', 'whore', 'tweater']
 
 randomBodyPart = random.choice(randomBodyParts)
 randomAdjective = random.choice(randomAdjectives)
